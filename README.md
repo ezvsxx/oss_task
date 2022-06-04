@@ -17,6 +17,7 @@
 - 현재 실행 중인 프로세스를 출력하는 명령어
 
 ### <code>▸ option</code>
+
 |옵션|내용|
 |:---:|:---:|
 |**-e**|시스템상의 모든 프로세스에 대한 정보 출력|
@@ -24,8 +25,7 @@
 |**-f**|전체 포맷으로 출력|
 
 ### <code>▸ examples</code>
-
-~~~blackquote
+~~~
 ps [옵션]
 $ ps -ef | more         : 모든 프로세스를 full format으로 출력하고 페이지 단위로 출력
 $ ps -ef | grep apache  : grep을 이용하여 apache가 포함된 모든 라인 출력
